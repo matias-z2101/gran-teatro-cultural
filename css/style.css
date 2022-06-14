@@ -114,15 +114,19 @@ img{
     height: auto;
 }
 .img1{
+    display: flex;
+    justify-content: center;
     background-color: aqua;
     width: 100%;
-    height: 15rem;
+    height: auto;
     grid-area: img1;
 }
 .img1:hover{
     border: solid 2px rgb(185, 93, 93);
 }
 .img2{
+    display: flex;
+    justify-content: center;
     background-color: rgb(136, 26, 26);
     grid-area: img2;
 }
@@ -130,6 +134,8 @@ img{
     border: solid 2px rgb(185, 93, 93);
 }
 .img3{
+    display: flex;
+    justify-content: center;
     background-color: blue;
     grid-area: img3;
 }
@@ -137,6 +143,8 @@ img{
     border: solid 2px rgb(185, 93, 93);
 }
 .img4{
+    display: flex;
+    justify-content: center;
     background-color: blueviolet;
     grid-area: img4;
 }
@@ -144,6 +152,8 @@ img{
     border: solid 2px rgb(185, 93, 93);
 }
 .img5{
+    display: flex;
+    justify-content: center;
     background-color: burlywood;
     grid-area: img5;
 }
@@ -151,6 +161,8 @@ img{
     border: solid 2px rgb(185, 93, 93);
 }
 .img6{
+    display: flex;
+    justify-content: center;
     background-color: chocolate;
     grid-area: img6;
 }
@@ -158,6 +170,8 @@ img{
     border: solid 2px rgb(185, 93, 93);
 }
 .img7{
+    display: flex;
+    justify-content: center;
     background-color: coral;
     grid-area: img7;
 }
@@ -165,6 +179,8 @@ img{
     border: solid 2px rgb(185, 93, 93);
 }
 .img8{
+    display: flex;
+    justify-content: center;
     background-color: cornflowerblue;
     grid-area: img8;
 }
@@ -172,6 +188,8 @@ img{
     border: solid 2px rgb(185, 93, 93);
 }
 .img9{
+    display: flex;
+    justify-content: center;
     background-color: darkcyan;
     grid-area: img9;
 }
