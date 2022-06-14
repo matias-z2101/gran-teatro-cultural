@@ -1,0 +1,339 @@
+@keyframes animacion{
+	0%{
+		background-position: 5% 0%;
+	}
+	25%{
+		background-position: 35% 0%;
+	}
+	50%{
+		background-position: 96% 0%;
+	}
+	100%{
+		background-position: 5% 0%;
+	}
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(227, 134, 134);
+}
+header{
+    background: linear-gradient(90deg, rgba(217,105,77,1) 35%, rgba(255,255,255,1) 49%, rgba(217,203,46,1) 83%);
+    animation-name: animacion;
+	animation-iteration-count: infinite;
+	animation-duration: 12s;
+	animation-delay: 0s;
+	background-size: 500% 500%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(211, 195, 73);
+}
+.contenedoraHeader{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nombre{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;
+    height: auto;
+}
+.nav{
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+ul li{display: flex;
+    width: auto;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(234, 213, 145);
+}
+a{
+    text-decoration: none;
+}
+.carrousel{
+    padding: 10px;
+    margin-left: 600px;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(232, 182, 117);
+}
+.carrousel:hover{
+    border-left: solid 2px rgb(240, 130, 130);
+    border-bottom: solid 2px rgb(240, 130, 130);
+}
+button{
+    margin-left: 100px;
+    margin-top: 5px;
+    color: rgb(239, 168, 148);
+    background-color: rgb(153, 87, 215);
+}
+.container{
+    margin-top: 100px;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "img1 img1 img2 img2 img3 img3 publicidad publicidad"
+    "img4 img4 img5 img5 img6 img6 publicidad publicidad"
+    "img7 img7 img8 img8 img9 img9 publicidad publicidad"
+    "proximamente proximamente proximamente proximamente proximamente proximamente publicidad publicidad";
+}
+img{
+    width: auto;
+    height: auto;
+}
+.img1{
+    background-color: aqua;
+    width: 100%;
+    height: 15rem;
+    grid-area: img1;
+}
+.img1:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img2{
+    background-color: rgb(136, 26, 26);
+    grid-area: img2;
+}
+.img2:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img3{
+    background-color: blue;
+    grid-area: img3;
+}
+.img3:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img4{
+    background-color: blueviolet;
+    grid-area: img4;
+}
+.img4:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img5{
+    background-color: burlywood;
+    grid-area: img5;
+}
+.img5:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img6{
+    background-color: chocolate;
+    grid-area: img6;
+}
+.img6:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img7{
+    background-color: coral;
+    grid-area: img7;
+}
+.img7:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img8{
+    background-color: cornflowerblue;
+    grid-area: img8;
+}
+.img8:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img9{
+    background-color: darkcyan;
+    grid-area: img9;
+}
+.img9:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.publicidad{
+    background-color: darkorange;
+    grid-area: publicidad;
+}
+.publicidad__despegar{
+
+}
+.proximamente{
+    background-color: darkolivegreen;
+    grid-area: proximamente;
+}
+.nacionales{
+    width: 800px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 25px;
+    background-color: rgb(192, 100, 100);
+}
+img{
+    margin: 4px;
+    border: solid 2px rgb(178, 116, 116);
+}
+.imagenNosotros{
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 400px;
+    border-left: 4px solid rgb(149, 151, 40);
+}
+.sectionNosotros{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+}
+.section__nosotros--div{
+    text-align: center;
+}
+.section__galeria{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "video1"
+    "video2"
+    "footer";
+}
+.video1{
+    grid-area: video1;
+}
+.video2{
+    grid-area: video2;
+}
+.footer{
+    grid-area: footer;
+}
+.section__footer{
+    margin-top: 300px;
+}
+.contenedorformulario{
+    padding: 10px;
+}
+fieldset{
+    padding: 5px;
+    margin: 5px;
+}
+input{
+    background-color: rgb(238, 219, 95);
+}
+.multimedia{
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(186, 117, 117);
+}
+iframe{
+    padding: 10px;
+    width: 100%;
+}
+iframe:hover{
+    border: 1.5px solid rgb(235, 223, 223);
+    background-color: rgb(190, 43, 149);
+}
+footer{
+    
+    width: 100%;
+    height: 60px;
+    color: rgb(156, 52, 154);
+    background-color: rgb(144, 201, 154);
+}
+@media (max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .body{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+    header{
+        width: auto;
+        height: auto;
+        background-color: rgb(211, 73, 170);
+    }
+    .contenedoraHeader{
+        width: auto;
+        height: auto;
+    }
+    .container{   
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "header"
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "footer";
+    }
+    header{
+        grid-area: header;
+    }
+    .img1{
+        grid-area: img1;
+        width: 100%;
+        background-color: rgb(26, 48, 26);
+    }
+    .img2{
+        grid-area: img2;
+    }
+    .img3{
+        grid-area: img3;
+    }
+    .img4{
+        grid-area: img4;
+    }
+    footer{
+        grid-area: footer;
+    }
+    .nombre{
+        font-size: medium;
+    }
+    .nav{
+        width: auto;
+        height: auto;
+    }
+    ul li{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 879px){
+    
+}
