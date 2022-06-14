@@ -282,11 +282,33 @@ iframe:hover{
     background-color: rgb(190, 43, 149);
 }
 footer{
-    
     width: 100%;
-    height: 60px;
+    height: auto;
     color: rgb(156, 52, 154);
     background-color: rgb(144, 201, 154);
+}
+.container__redes{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+}
+.instagram{
+    width: auto;
+    height: auto;
+    transform: scale(0.2);
+}
+.facebook{
+    width: auto;
+    height: auto;
+    transform: scale(0.2);
+}
+.whatsapp{
+    width: auto;
+    height: auto;
+    transform: scale(0.2);
 }
 @media (max-width: 480px){
     *{
